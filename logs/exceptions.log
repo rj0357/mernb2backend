@@ -20,3 +20,15 @@ Error: Socket already opened
     at Class.connect (C:\Users\HP\Documents\Web Course\Practical\Week08-03\backend\node_modules\@redis\client\dist\lib\client\index.js:477:34)
     at file:///C:/Users/HP/Documents/Web%20Course/Practical/Week08-03/backend/index.js:33:19
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-16T12:40:23.661Z] error: uncaughtException: Invalid URL
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at RedisClient.parseURL (/Users/rj/Desktop/Authntication-Integration-2/backend/node_modules/@redis/client/dist/lib/client/index.js:88:76)
+    at #initiateOptions (/Users/rj/Desktop/Authntication-Integration-2/backend/node_modules/@redis/client/dist/lib/client/index.js:211:31)
+    at new RedisClient (/Users/rj/Desktop/Authntication-Integration-2/backend/node_modules/@redis/client/dist/lib/client/index.js:180:46)
+    at new Class (/Users/rj/Desktop/Authntication-Integration-2/backend/node_modules/@redis/client/dist/lib/commander.js:9:45)
+    at /Users/rj/Desktop/Authntication-Integration-2/backend/node_modules/@redis/client/dist/lib/client/index.js:80:34
+    at create (/Users/rj/Desktop/Authntication-Integration-2/backend/node_modules/@redis/client/dist/lib/client/index.js:84:35)
+    at createClient (/Users/rj/Desktop/Authntication-Integration-2/backend/node_modules/redis/dist/index.js:38:38)
+    at file:///Users/rj/Desktop/Authntication-Integration-2/backend/utils/redisClient.js:3:21
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
